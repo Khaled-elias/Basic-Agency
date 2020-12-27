@@ -14,7 +14,7 @@
 //     index.style.height = "50vh";
 
 // }
-const ThreePonkt = document.getElementById("ThreePonkt")
+const ThreePonkt = document.getElementById("ThreePonkt-nav")
 const close_X = document.getElementById("close-x")
 const show_ThreePonkt = document.getElementById("show-Threeponkt-section")
 

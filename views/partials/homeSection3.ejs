@@ -1,0 +1,45 @@
+<section class="Homesection3">
+    <article class="article-Homesection3">
+        <div class="div-text">
+            <h3>
+                BASIC® HELPS BRANDS ●CONNECT
+                W/ CULTURE
+            </h3>
+            <p>ADWEEK <span>(AGENCY SPOTLIGHT)</span> </p>
+            <a href="/about">ABOUT US</a>
+        </div>
+        <div class="div-video">
+
+            <video src="assets/video/Culture.mp4" autoplay muted loop></video>
+        </div>
+    </article>
+
+<article class="article-Home-news">
+    <h1>FEATURED</h1>
+    <h1>NEWS</h1>
+    <% homeSection3.forEach(HomeNews => {%>
+        <div class="div-Home-news">
+
+
+            <div class="Home-news">
+                <img src="<%=HomeNews.foto %> " alt="">
+                <div class="Home-news-text">
+                    <h2>
+                        <%=HomeNews.text %>
+                    </h2>
+                    <p>
+                        <%=HomeNews.wo %><span>
+                                <%=HomeNews.wann %>
+                            </span>
+                    </p>
+                </div>
+
+            </div>
+            <div class="Side-Home-news-img">
+                <a href=""><img src="assets/img/arrow.svg" alt=""></a>
+            </div>
+        </div>
+        <%}) %>
+    </article>
+</section>
+

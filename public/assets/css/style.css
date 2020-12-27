@@ -1,14 +1,14 @@
 @font-face {
   font-family: "SctoGrotes-bold";
-  src: url("../fonts/SctoGroteskA-Bold.woff2");
+  src: url("../font/SctoGroteskA-Bold.woff2");
 }
 @font-face {
   font-family: "SctoGrotes-medium";
-  src: url("../fonts/SctoGroteskA-Medium.woff2");
+  src: url("../font/SctoGroteskA-Medium.woff2");
 }
 @font-face {
   font-family: "SctoGrotes-regular";
-  src: url("../fonts/SctoGroteskA-Regular.woff2");
+  src: url("../font/SctoGroteskA-Regular.woff2");
 }
 
 * {
@@ -48,11 +48,11 @@ li {
   width: 40%;
 }
 
-/* __________ThreePonkt */
-
-#ThreePonkt {
+#ThreePonkt-nav {
   width: 3%;
 }
+
+/* __________ThreePonkt */
 
 #show-Threeponkt-section {
   position: fixed;
@@ -65,7 +65,7 @@ li {
   z-index: 1000;
   color: #f9cdcd;
   padding: 5% 5% 2%;
-  font-family: scto-medium;
+  font-family: "SctoGrotes-medium";
   transition: right 1s;
 }
 
@@ -85,7 +85,7 @@ li {
   justify-content: space-between;
 }
 .Text-oben-Threeponkt h4 {
-  font-family: "scto-regular";
+  font-family: "SctoGrotes-regular";
   font-size: 25px;
   margin-top: -4%;
 }
@@ -105,14 +105,14 @@ li {
 .Article-ThreePonkt {
   display: flex;
   overflow-x: auto;
-  overflow-y: auto;
+  overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   min-width: 100%;
 
   margin-top: 5%;
   background-color: inherit;
-  height: 80vh;
+  height: 79vh;
 }
 
 .Article-ThreePonkt figure {
@@ -182,43 +182,47 @@ li {
   display: block;
 }
 
-/* __________________Home Page */
+/* __________________Home Page __*/
 
-.home-whatNext {
+/* firstSection____ */
+
+.home-first-section {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 8%;
 
   color: #252422;
 }
-.home-whatNext h1 {
-  font-family: "scto-bold";
+.home-first-section h1 {
+  font-family: "SctoGrotes-bold";
   font-size: 5rem;
   width: 50%;
 }
-.home-whatNext h2 {
-  font-family: "scto-bold";
+.home-first-section h2 {
+  font-family: "SctoGrotes-bold";
   font-size: 5rem;
   text-align: right;
   margin-top: 2%;
 }
-.circle {
+.home-first-section p {
+  font-family: "SctoGrotes-regular";
+  margin-top: 1%;
+}
+
+.Kreis {
   background: #252422;
   width: 55px;
   height: 55px;
   border-radius: 50%;
   display: inline-block;
 }
-.videos video {
+.first-videos {
   width: 100%;
   border-bottom: 2px solid #252422;
   padding-bottom: 2%;
 }
-.home-whatNext p {
-  font-family: "scto-regular";
-  margin-top: 1%;
-}
-.branding {
+
+.BR-text-div {
   height: 50vh;
   display: flex;
   justify-content: space-between;
@@ -226,21 +230,21 @@ li {
   padding-bottom: 10%;
   border-bottom: 2px solid #252422;
 }
-.branding-text {
+.BR-Text-Brandibg {
   width: 50%;
 }
-.branding-text h3 {
-  font-family: "scto-medium";
+.BR-Text-Brandibg h3 {
+  font-family: "SctoGrotes-medium";
   font-size: 2.6rem;
   margin-bottom: 15%;
 }
-.branding-text a {
-  font-family: "scto-regular";
+.BR-Text-Brandibg a {
+  font-family: "SctoGrotes-regular";
   border: 1px solid #252422;
   padding: 2% 5%;
   border-radius: 30px;
 }
-.branding-text a:hover {
+.BR-Text-Brandibg a:hover {
   color: #fff;
   background-color: #252422;
 
@@ -248,6 +252,241 @@ li {
   border-radius: 30px;
 }
 
-.branding-img {
+.BR-Home-img {
   width: 30%;
+}
+
+/* HomeSection2______ */
+
+.HomeSection2 {
+  color: #252422;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.HomeSection2 h1 {
+  font-family: "SctoGrotes-medium";
+  font-size: 3rem;
+  width: 30%;
+}
+.HomeSection2-article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 5%;
+  overflow-x: auto;
+
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+.HomeSection2-article div {
+  width: 30%;
+}
+.HomeSection2-article img {
+  width: 20vh;
+  margin-bottom: 6%;
+}
+.foto-under-armour,
+.google-foto {
+  width: 10vh;
+  height: 6vh;
+}
+
+.hermam-miller-foto {
+  width: 45vh;
+  height: 8vh;
+  margin-bottom: 1%;
+}
+
+.HomeSection2-article p {
+  width: 20%;
+}
+.HomeSection2-article h3 {
+  font-family: "SctoGrotes-medium";
+  font-size: 23px;
+  margin-top: 40%;
+  width: 150%;
+}
+.HomeSection2-article h5 {
+  font-family: "SctoGrotes-regular";
+  font-size: 20px;
+  margin: 15% 0;
+  width: 150%;
+
+  border-top: 2px solid #252422;
+  padding-top: 20%;
+  padding-right: 10%;
+}
+
+.google,
+.patagonia,
+.airbnb,
+.hermam-miller {
+  margin-right: 25%;
+}
+
+/* HomeSection3______ */
+
+.Homesection3 {
+  background-color: #252422;
+  color: #f9cdcd;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.article-Homesection3 {
+  padding-top: 10%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.div-text h3 {
+  font-family: "SctoGrotes-bold";
+  font-size: 6rem;
+  width: 65%;
+}
+.div-text p {
+  font-family: "SctoGrotes-regular";
+  margin-top: 8%;
+  margin-bottom: 15%;
+}
+.div-text span {
+  font-family: "SctoGrotes-bold";
+}
+.div-video {
+  width: 80%;
+}
+.article-Homesection3 video {
+  width: 100%;
+}
+.div-text a {
+  font-family: "SctoGrotes-bold";
+  border: 1px solid #f9cdcd;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+
+.article-Home-news h1 {
+  font-family: "SctoGrotes-bold";
+  font-size: 3rem;
+}
+.div-Home-news {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  border-top: 2px solid #f9cdcd;
+  padding-top: 3%;
+}
+.Home-news {
+  width: 80%;
+  display: flex;
+}
+.Home-news-text h2 {
+  font-family: "SctoGrotes-medium";
+  font-size: 3rem;
+  margin-left: 3%;
+  width: 80%;
+}
+.Home-news-text p {
+  font-family: "SctoGrotes-regular";
+  margin-top: 20%;
+  margin-left: 3%;
+  font-size: 20px;
+}
+.Home-news-text span {
+  margin-left: 4%;
+}
+.Home-news img {
+  width: 40%;
+}
+.Side-Home-news-img {
+  text-align: right;
+}
+.Side-Home-news-img img {
+  width: 30%;
+}
+
+/* ________________Footer */
+
+.Footer-Section {
+  color: #f4f4f4;
+  background-color: #252422;
+  min-height: 70vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+}
+.First-Footer-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+  margin-bottom: 15%;
+}
+.dot-footer {
+  height: 14px;
+  width: 14px;
+  margin-right: 4px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.First-Footer-article h3 {
+  font-family: "SctoGrotes-medium";
+  font-size: 2.5rem;
+  width: 45%;
+}
+.First-Footer-article span {
+  text-decoration: underline;
+}
+.First-Footer-article img {
+  width: 5%;
+}
+.Article-Social {
+  display: grid;
+  grid-template-columns: 50% 20% 20% 20%;
+  width: 90%;
+}
+.Article-Social h2 {
+  margin-bottom: 5%;
+  font-family: "SctoGrotes-medium";
+  font-size: 25px;
+}
+.Article-Social li {
+  font-family: "SctoGrotes-regular";
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+.Footer-Email-input h3 {
+  font-family: "SctoGrotes-regular";
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.Footer-Email-input p {
+  font-family: "SctoGrotes-regular";
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.Footer-Email-input input {
+  border: none;
+  background-color: #252422;
+  border-bottom: 2px solid #f4f4f4;
+  width: 96%;
+  height: 2rem;
+}
+.last-Footer-article {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(31, 30, 29);
+  height: 10vh;
+  color: grey;
+  font-family: "SctoGrotes-regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
