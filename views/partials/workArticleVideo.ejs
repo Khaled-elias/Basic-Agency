@@ -1,0 +1,39 @@
+<% workDatavideo.forEach(work=> { %>
+    <article class="work-article">
+        <div class="work-first-div">
+            <p>
+                <%= work.DatumVideo %>
+            </p>
+            <h1>
+                <%= work.TitleVideo %>
+            </h1>
+            <p>
+                <%= work.infoTextVideo %>
+            </p>
+            <a href="#">Learn More
+            </a>
+        </div>
+        <div class="work-2end-div">
+            <div class=" work-videos">
+                
+                
+                <video src="<%= work.video %>" alt="" autoplay muted loop></video>
+            </div>
+            <h3>
+                <%= work.who1Video %>
+            </h3>
+            <p>
+                <%= work.Text1Video %>
+            </p>
+        </div>
+        <div class="work-3ird-div">
+            <img src='<%= work.img2Video %>' alt=''>
+            <h3>
+                <%= work.who2Video %>
+            </h3>
+            <p>
+                <%= work.Text2Video %>
+            </p>
+        </div>
+    </article>
+    <%})%>

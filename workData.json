@@ -1,0 +1,43 @@
+[
+   
+    {
+        "Title": "DIGITAL PRODUCTS + SERVICES",
+        "Datum":"02/04",
+        "infoText": "We identify and create digital products and services that create revenue channels and help brands thrive in the new economy.",
+        "img1":"assets/img/Fender.jpg",
+        "who1":"Fender Academy",
+        "Text1":"A WEB SERVICE TO MAKE SALES TRAINING FEEL LESS LIKE WORK AND MORE LIKE PLAY",
+        "img2":"assets/img/AMEX.jpg",
+        "who2":"American Express",
+        "Text2":"LAYING A DESIGN FOUNDATION FOR FUTURE PRODUCTS AND SERVICES WITH THE OPEN APP"
+        
+    },
+    {
+        "Title": "WEBSITES + PLATFORMS",
+        "Datum":"03/04",
+        "infoText": "We conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.",
+        "img1":"assets/img/Riot.jpg",
+        "who1":"Riot Games",
+        "Text1":"REVITALIZING THE RIOT GAMES BRAND WITH AN UPGRADED DIGITAL EXPERIENCE",
+        "img2":"assets/img/Softbank.jpg",
+        "who2":"SoftBank Vision Fund",
+        "Text2":"BUILDING A DIGITAL DESTINATION FOR THE LEADING TECH INVESTMENT FUND"
+        
+    },
+    {
+        "Title": "BRANDING + ADVERTISING",
+        "Datum":"04/04",
+        "infoText": "We create identities, platforms, and activations that differentiate brands and position them to matter in culture.",
+        "img1":"assets/img/NERD.jpg",
+        "who1":"NERD Skincare",
+        "Text1":"DEVELOPING A BRAND THAT BROUGHT SCIENCE TO BEAUTY IN BOLD, UNEXPECTED WAYS",
+        "img2":"assets/img/Beats.jpg",
+        "who2":"Brixton",
+        "Text2":"HONORING THE PAST TO BUILD THE FUTURE OF THE BRIXTON BRAND"
+        
+    }
+    
+   
+    
+   
+]

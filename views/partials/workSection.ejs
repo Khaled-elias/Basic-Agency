@@ -1,0 +1,54 @@
+<section class="work-section">
+
+
+    <%- include('./workArticleVideo') %> 
+
+
+
+
+
+    <% workData.forEach(work2=> { %>
+        <article class="work-article">
+            <div class="work-first-div">
+                <p>
+                    <%= work2.Datum %>
+                </p>
+                <h1>
+                    <%= work2.Title %>
+                </h1>
+                <p>
+                    <%= work2.infoText %>
+                </p>
+                <a href="#">Learn More
+                </a>
+            </div>
+            <div class="work-2end-div">
+                <div class=" work-videos">
+                    
+                    <img src="<%= work2.img1 %>" alt="">
+                    
+                </div>
+                <h3>
+                    <%= work2.who1 %>
+                </h3>
+                <p>
+                    <%= work2.Text1 %>
+                </p>
+            </div>
+            <div class="work-3ird-div">
+                <img src='<%= work2.img2 %>' alt=''>
+                <h3>
+                    <%= work2.who2 %>
+                </h3>
+                <p>
+                    <%= work2.Text2 %>
+                </p>
+            </div>
+        </article>
+        <%})%>
+
+</section>
+
+
+
+    

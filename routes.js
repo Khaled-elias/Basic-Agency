@@ -3,6 +3,8 @@ const router = express.Router()
 
 
 const homeSection3 = require('./homeSection3.json')
+const workData = require('./workData.json')
+const workDatavideo = require('./workDataVideo.json')
 
 // console.log(nav);
 
@@ -11,7 +13,7 @@ const homeSection3 = require('./homeSection3.json')
     })
 
     router.get('/work' ,(req,res) =>{
-        res.render('work',{title:'Work Basic Agency'})
+        res.render('work',{title:'Work Basic Agency',workData,workDatavideo})
     })
 
     router.get('/about' ,(req,res) =>{
