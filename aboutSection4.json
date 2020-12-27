@@ -1,0 +1,73 @@
+[
+    { 
+        "main":"CAPABILITIES",
+        "Zeile1":"Customer Experience",
+        "Zeile2":"Consumer Insights + Trends",
+        "Zeile3":"Omnichannel + D2C",
+        "Zeile4":"Product + Service Vision",
+        "Zeile5":"Go-To-Market Planning",
+        "Zeile6":"Data Science + Analytics"
+        
+        
+ 
+ 
+ 
+ 
+     },
+
+
+     { 
+         "main":"USER EXPERIENCE",
+         "Zeile1":"Experience Strategy",
+         "Zeile2":"eCommerce + Websites",
+         "Zeile3":"Digital Product + Services",
+         "Zeile4":"Design Systems + Style Guides",
+         "Zeile5":"iOS + Android Applications ",
+         "Zeile6":"Prototyping & Optimizatione"
+         
+ 
+ 
+      },
+
+
+
+
+      { 
+         "main":"BRAND EXPERIENCE",
+         "Zeile1":"Identity + Positioning",
+         "Zeile2":"Visual Language + Art Direction",
+         "Zeile3":"Design Production + Execution",
+         "Zeile4":"Brand Messaging",
+         "Zeile5":"Brand Guidelines + Playbooks",
+         "Zeile6":"Campaign Development"
+         
+         
+         
+      },
+
+
+      { 
+         "main":"TECHNOLOGY",
+         "list1":"Technical Discovery",
+         "list2":"Technical Architecture",
+         "list3":"Full-Stack Development",
+         "list4":"CMS Implementation",
+         "list5":"Quality Assurance",
+         "list6":"Campaign Development"
+         
+         
+      },
+
+      
+      { 
+         "main":"CONTENT CREATION",
+         "list1":"Content Strategy",
+         "list2":"Art Direction",
+         "list3":"Photography",
+         "list4":"Video Production",
+         "list5":"3D / Motion Graphics",
+         "list6":"Copywriting"
+         
+         
+      }
+ ]

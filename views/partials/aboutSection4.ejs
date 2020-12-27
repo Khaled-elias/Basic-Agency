@@ -1,0 +1,45 @@
+<section class="about-section3-4">
+    <article class="article-about-section3">
+        <p>SEC.</p>
+        <h1>CAPABILITIES</h1>
+    </article>
+    <article>
+        <div class="div-section3-4-words">
+            <p>/B</p>
+            <h3>●</h3>
+
+        </div>
+
+        <div class="div-Section3-4-json">
+            <% SectionAbout4.forEach(aboutSec4=> { %>
+                <div class="liste-Section4">
+                    <h2>
+                        <%= aboutSec4.main %>
+                    </h2>
+                    <ul>
+                        <li>
+                            <%= aboutSec4.Zeile1 %>
+                        </li>
+                        <li>
+                            <%= aboutSec4.Zeile2 %>
+                        </li>
+                        <li>
+                            <%= aboutSec4.Zeile3 %>
+                        </li>
+                        <li>
+                            <%= aboutSec4.Zeile4 %>
+                        </li>
+                        <li>
+                            <%= aboutSec4.Zeile5 %>
+                        </li>
+                        <li>
+                            <%= aboutSec4.Zeile6 %>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <%})%>
+        </div>
+    </article>
+</section>

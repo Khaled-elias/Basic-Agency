@@ -1,0 +1,30 @@
+<section class="about-section3-4">
+    <article class="article-about-section3">
+        <p>SEC.</p>
+        <h1>AGENCY SNAPSHOT</h1>
+    </article>
+    <article >
+        <div class="div-section3-4-words">
+            <p>/B</p>
+            <h3>●</h3>
+
+        </div>
+
+        <div class="div-Section3-4-json">
+            <% SectionAbout3.forEach(aboutSec3=> { %>
+                <div>
+                    <h2>
+                        <%= aboutSec3.who %>
+                    </h2>
+                    <h1>
+                        <%= aboutSec3.number %>
+                    </h1>
+                    <p>
+                        <%= aboutSec3.info %>
+                    </p>
+
+                </div>
+                <%})%>
+        </div>
+    </article>
+</section>

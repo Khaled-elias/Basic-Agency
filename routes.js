@@ -6,7 +6,12 @@ const homeSection3 = require('./homeSection3.json')
 const workData = require('./workData.json')
 const workDatavideo = require('./workDataVideo.json')
 
-// console.log(nav);
+const SectionAbout3 = require('./aboutSection3.json')
+
+const SectionAbout4 = require('./aboutSection4.json')
+
+const NEWS = require('./news.json')
+
 
     router.get('/', (req, res) => {
     res.render('index', {  title:'Home Basic Agency', homeSection3 })
@@ -17,7 +22,7 @@ const workDatavideo = require('./workDataVideo.json')
     })
 
     router.get('/about' ,(req,res) =>{
-        res.render('about',{title:'About Basic Agency'})
+        res.render('about',{title:'About Basic Agency',SectionAbout3,SectionAbout4})
     })
 
     router.get('/thinking' ,(req,res) =>{
@@ -30,7 +35,7 @@ const workDatavideo = require('./workDataVideo.json')
     
     
     router.get('/news' ,(req,res) =>{
-        res.render('news',{title:'News Basic Agency'})
+        res.render('news',{title:'News Basic Agency',NEWS})
     })
     
     

@@ -1,5 +1,43 @@
 <%- include('./partials/header')  %> 
 
-<h1>news</h1>
+
+<header class="news-header">
+    <div>
+        <h1>NEWS</h1>
+        <h1>●</h1>
+    </div>
+</header>
+<article class="article-Home-news article-News">
+
+    <% NEWS.forEach(newselement=> {%>
+        <div class="div-Home-news">
+
+
+            <div class="Home-news">
+                <img src="<%=newselement.foto %> " alt="">
+
+                <div class="Home-news-text">
+
+                    <h2>
+                        <%=newselement.text %>
+                    </h2>
+
+                    <p>
+                        <%=newselement.word %><span>
+
+                                <%=newselement.date %>
+
+                        </span>
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="Side-Home-news-img">
+                <a href=""><img src="assets/img/arrow-black.svg" alt=""></a>
+            </div>
+        </div>
+        <%}) %>
+</article>
 
 <%- include('./partials/footer')  %>

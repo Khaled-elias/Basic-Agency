@@ -10,7 +10,9 @@
   font-family: "SctoGrotes-regular";
   src: url("../font/SctoGroteskA-Regular.woff2");
 }
-
+body {
+  background-color: #f4f4f4;
+}
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +52,20 @@ li {
 
 #ThreePonkt-nav {
   width: 3%;
+}
+
+/* NavigationAbout_______ */
+
+.NavBar-About {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 2%;
+  align-items: baseline;
+  font-family: "SctoGrotes-regular";
+  text-transform: uppercase;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* __________ThreePonkt */
@@ -506,6 +522,277 @@ li {
   font-size: 20px;
 }
 
+/* __________________About */
+.About-Seite {
+  background-color: #252422;
+  color: #f9cdcd;
+}
+/* aboutSection1________ */
+
+.about-Section1 {
+  height: 90vh;
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  width: 90%;
+  border-bottom: 1px solid #f9cdcd;
+  padding-bottom: 3%;
+}
+.about-Section1 div:nth-of-type(1) {
+  width: 50%;
+  height: 60vh;
+}
+.about-Section1 div:nth-of-type(1) h1 {
+  font-size: 6.5rem;
+  font-family: "SctoGrotes-bold";
+  width: 80%;
+}
+.about-Section1 div:nth-of-type(2) {
+  width: 50%;
+  height: 60vh;
+}
+.about-Section1 div:nth-of-type(2) h1 {
+  margin-top: 32%;
+  font-size: 6.5rem;
+  font-family: "SctoGrotes-bold";
+  width: 80%;
+}
+
+.about-Section1 div:nth-of-type(2) p {
+  font-family: "SctoGrotes-regular";
+  font-size: 30px;
+  width: 74%;
+}
+.about-Section1 div:nth-of-type(2) span {
+  font-family: "SctoGrotes-medium";
+  font-size: 32px;
+}
+
+/* aboutSection2________ */
+
+.about-section2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "SctoGrotes-regular";
+  font-size: 23px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  height: 140vh;
+  position: relative;
+  border-bottom: 1px solid #f9cdcd;
+  padding-bottom: 20vh;
+}
+.about-section2 p {
+  width: 60%;
+}
+.about-section2 img {
+  height: 70vh;
+  margin-bottom: 2%;
+}
+.about-Foto {
+  position: absolute;
+  top: -100vh;
+}
+.About-Figure1 {
+  position: absolute;
+  top: 130vh;
+  left: 50vh;
+  z-index: 3;
+}
+.About-Figure2 {
+  position: absolute;
+  top: 160vh;
+  left: 65vh;
+  z-index: 4;
+}
+.About-Figure3 {
+  position: absolute;
+  top: 140vh;
+  left: 75vh;
+  z-index: 2;
+  display: flex;
+}
+.About-Figure4 {
+  position: absolute;
+  top: 170vh;
+  left: 100vh;
+  z-index: 1;
+}
+.about-Foto figure:hover {
+  position: absolute;
+  z-index: 5;
+}
+
+.about-Foto figcaption {
+  margin-left: 12px;
+}
+
+.Basic-pink {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 50%;
+}
+/* aboutSection3_____ */
+
+.about-section3-4 {
+  border-top: 1px solid #f9cdcd;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.article-about-section3 p {
+  font-family: "SctoGrotes-regular";
+  font-size: 20px;
+  margin-bottom: 20%;
+}
+.article-about-section3 h1 {
+  font-family: "SctoGrotes-bold";
+  font-size: 3rem;
+  width: 20%;
+}
+.div-section3-4-words {
+  display: flex;
+  justify-content: space-between;
+  font-family: "SctoGrotes-regular";
+  font-size: 20px;
+  margin-bottom: 9%;
+}
+.div-Section3-4-json {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.div-Section3-4-json h2 {
+  font-family: "SctoGrotes-bold";
+  font-size: 30px;
+  margin-bottom: 4%;
+}
+.div-Section3-4-json h1 {
+  font-family: "SctoGrotes-bold";
+  font-size: 5.5rem;
+  margin-bottom: 4%;
+}
+
+.div-Section3-4-json p {
+  font-family: "SctoGrotes-regular";
+  margin-bottom: 13%;
+  font-size: 20px;
+  width: 55%;
+}
+
+/* AboutSection4_______ */
+
+.liste-Section4t ul {
+  font-family: "SctoGrotes-regular";
+
+  margin-bottom: 10%;
+}
+.liste-Section4 li {
+  margin-bottom: 3%;
+}
+
+/* AboutSetion5______ */
+
+.About-Section5 {
+  border-top: 1px solid #f9cdcd;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.About-Section5 h4 {
+  font-family: "SctoGrotes-medium";
+  font-size: 40px;
+  margin-bottom: 10%;
+  width: 55vh;
+}
+.div-Section3-4-json a {
+  font-family: "SctoGrotes-medium";
+  border: 1px solid #f9cdcd;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+.div-Section3-4-json a:hover {
+  color: #252422;
+  background-color: #f9cdcd;
+  border: 1px solid #f9cdcd;
+  padding: 1% 6%;
+  border-radius: 30px;
+}
+.Fotos-About-Section5 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  height: 100vh;
+}
+.Fotos-About-Section5 div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.Fotos-About-Section5 h1 {
+  font-family: "SctoGrotes-bold";
+  font-size: 5rem;
+  opacity: 0.5;
+}
+.Fotos-About-Section5 h1:hover {
+  opacity: 1;
+}
+.Fotos-About-Section5 h1:hover + img {
+  display: block;
+  opacity: 1;
+}
+
+.Fotos-About-Section5 h1 span {
+  font-size: 20px;
+  position: absolute;
+  font-family: "SctoGrotes-regular";
+  top: 15px;
+  padding-left: 10px;
+}
+.Fotos-About-Section5 img {
+  width: 40%;
+  position: absolute;
+
+  opacity: 0;
+  left: 65%;
+  margin-top: 13em;
+}
+.Fotos-About-Section5 img:hover {
+  opacity: 1;
+}
+
+/* _________________NEWS */
+
+.news-header div {
+  height: 50vh;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "SctoGrotes-bold";
+  font-size: 5rem;
+  color: #252422;
+}
+.article-News {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+.article-News .div-Home-news {
+  border-color: #252422;
+}
+
 /* ________________Footer */
 
 .Footer-Section {
@@ -577,4 +864,32 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Footer-About_______ */
+
+.Footer-Section-About {
+  color: #252422;
+  background-color: #f4f4f4;
+  min-height: 70vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+}
+
+.last-Footer-article-About {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(31, 30, 29);
+  height: 10vh;
+  color: #252422;
+  background: lightgray;
+  font-family: "SctoGrotes-regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#email-About {
+  background: #f4f4f4;
+  border-bottom: 2px solid #252422;
 }
