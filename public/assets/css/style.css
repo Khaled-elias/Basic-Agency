@@ -690,13 +690,12 @@ li {
 
 /* AboutSection4_______ */
 
-.liste-Section4t ul {
-  font-family: "SctoGrotes-regular";
-
-  margin-bottom: 10%;
+.liste-Section4 ul {
+  margin-bottom: 14%;
 }
 .liste-Section4 li {
   margin-bottom: 3%;
+  font-family: "SctoGrotes-regular";
 }
 
 /* AboutSetion5______ */

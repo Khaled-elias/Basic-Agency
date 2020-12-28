@@ -48,12 +48,12 @@
 
       { 
          "main":"TECHNOLOGY",
-         "list1":"Technical Discovery",
-         "list2":"Technical Architecture",
-         "list3":"Full-Stack Development",
-         "list4":"CMS Implementation",
-         "list5":"Quality Assurance",
-         "list6":"Campaign Development"
+         "Zeile1":"Technical Discovery",
+         "Zeile2":"Technical Architecture",
+         "Zeile3":"Full-Stack Development",
+         "Zeile4":"CMS Implementation",
+         "Zeile5":"Quality Assurance",
+         "Zeile6":"Campaign Development"
          
          
       },
@@ -61,12 +61,12 @@
       
       { 
          "main":"CONTENT CREATION",
-         "list1":"Content Strategy",
-         "list2":"Art Direction",
-         "list3":"Photography",
-         "list4":"Video Production",
-         "list5":"3D / Motion Graphics",
-         "list6":"Copywriting"
+         "Zeile1":"Content Strategy",
+         "Zeile2":"Art Direction",
+         "Zeile3":"Photography",
+         "Zeile4":"Video Production",
+         "Zeile5":"3D / Motion Graphics",
+         "Zeile6":"Copywriting"
          
          
       }
