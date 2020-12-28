@@ -1076,3 +1076,9 @@ li {
   background: #f4f4f4;
   border-bottom: 2px solid #252422;
 }
+
+/* _______________404_________ */
+.Error-404 img {
+  margin-bottom: -3rem;
+  padding-top: 3rem;
+}
