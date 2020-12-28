@@ -49,6 +49,9 @@ li {
   justify-content: space-around;
   width: 40%;
 }
+.Nav-words a:hover {
+  text-decoration: underline;
+}
 
 #ThreePonkt-nav {
   width: 3%;
@@ -791,6 +794,186 @@ li {
 }
 .article-News .div-Home-news {
   border-color: #252422;
+}
+
+/* ___________________Thinking */
+
+.thinking-oben-div {
+  height: 50vh;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "SctoGrotes-bold";
+  font-size: 5rem;
+  color: #f9cdcd;
+}
+.thinking-text-oben {
+  display: flex;
+  width: 70%;
+  margin-left: 5%;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.thinking-text-oben h2 {
+  font-family: "SctoGrotes-bold";
+  font-size: 40px;
+}
+.thinking-text-oben p {
+  font-family: "SctoGrotes-regular";
+  font-size: 22px;
+  margin-top: 5%;
+  width: 75%;
+  line-height: 40px;
+}
+.article-Thinking {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.article-Thinking p {
+  margin-top: 45%;
+}
+.article-Thinking h2 {
+  width: 95%;
+}
+.thinging-forEach h2 {
+  width: 100%;
+}
+.thinging-forEach p {
+  margin-top: 65%;
+}
+
+/* _____________________Contact */
+
+.contact-Foto img {
+  height: 80;
+  margin-right: 2%;
+  margin-top: 16%;
+  width: 94%;
+}
+.Contact-Header {
+  width: 90%;
+  display: flex;
+
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.contact-big-word {
+  margin-top: 15%;
+}
+.contact-big-word h1 {
+  font-family: "SctoGrotes-bold";
+  font-size: 8rem;
+}
+.klein-text {
+  font-family: "SctoGrotes-regular";
+  width: 40%;
+}
+.contact-mailCom {
+  display: grid;
+  grid-template-columns: 40% 85%;
+  margin-top: 15%;
+}
+.contact-mailCom h2 {
+  font-family: "SctoGrotes-bold";
+  font-size: 3rem;
+}
+.contact-mailCom div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contact-mailCom h3 {
+  font-family: "SctoGrotes-bold";
+  font-size: 25px;
+  margin-bottom: 10%;
+}
+.contact-mailCom p {
+  font-family: "SctoGrotes-regular";
+  margin-bottom: 10%;
+  font-size: 20px;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+/* ContactSection_________ */
+
+.contact-section {
+  border-top: 1px solid #252422;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.contact-foto-word {
+  display: flex;
+}
+
+.contact-number {
+  display: flex;
+  justify-content: space-between;
+  width: 64%;
+  margin: 20px 0;
+  font-family: "SctoGrotes-regular";
+}
+
+.Contact-News {
+  padding-left: 5%;
+  border-left: 1px solid #000;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+.contact-border {
+  border-bottom: 1px solid #252422;
+  padding-bottom: 2px;
+  margin-top: 4%;
+}
+.H2-word-contact {
+  margin-left: 4%;
+  font-family: "SctoGrotes-bold";
+}
+
+/* ContactFooter_______ */
+
+.contact-social-email {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Contact-Email-input h3 {
+  font-family: "SctoGrotes-regular";
+  font-size: 35px;
+  margin-bottom: 12%;
+}
+.Contact-Email-input p {
+  font-family: "SctoGrotes-regular";
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.Contact-Email-input input {
+  border: none;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #252422;
+  width: 116%;
+  height: 2rem;
+  margin-top: 7%;
+}
+.contactFooter {
+  margin-bottom: 15%;
+}
+
+.contact-social-email h2 {
+  margin-bottom: 5%;
+  font-family: "SctoGrotes-medium";
+  font-size: 35px;
+}
+.contact-social-email li {
+  font-family: "SctoGrotes-regular";
+  font-size: 20px;
+  margin-bottom: 15%;
 }
 
 /* ________________Footer */

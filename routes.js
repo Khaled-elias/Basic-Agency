@@ -12,6 +12,10 @@ const SectionAbout4 = require('./aboutSection4.json')
 
 const NEWS = require('./news.json')
 
+const Thinking = require('./thinking.json')
+
+const Contact = require('./contact.json')
+
 
     router.get('/', (req, res) => {
     res.render('index', {  title:'Home Basic Agency', homeSection3 })
@@ -26,11 +30,11 @@ const NEWS = require('./news.json')
     })
 
     router.get('/thinking' ,(req,res) =>{
-        res.render('thinking',{title:'Thinking Basic Agency'})
+        res.render('thinking',{title:'Thinking Basic Agency',Thinking})
     })
 
     router.get('/contact' ,(req,res) =>{
-        res.render('contact',{title:'Contact Basic Agency'})
+        res.render('contact',{title:'Contact Basic Agency',Contact})
     })
     
     

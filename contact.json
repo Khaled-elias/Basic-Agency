@@ -1,0 +1,23 @@
+[
+    { 
+        "foto": "assets/img/SD.jpg",
+        "number1": "01",
+        "number2":"/03",
+        "word":"SAN DIEGO (HQ)"
+    },
+
+    { 
+        "foto": "assets/img/mtv.jpg",
+        "number1": "02",
+        "number2":"/03",
+        "word":"BAY AREA"
+    },
+
+    { 
+        "foto": "assets/img/stl.jpg",
+        "number1": "03",
+        "number2":"/03",
+        "word":"ST. LOUIS"
+    }
+
+]

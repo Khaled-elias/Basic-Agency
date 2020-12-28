@@ -1,0 +1,57 @@
+
+
+
+
+
+<section class="contact-section">
+    <article class="article-about-section3">
+        <p>SEC.</p>
+        <h1>OFFICES</h1>
+    </article>
+    <article >
+        <div class="div-section3-4-words">
+            <p>/B</p>
+            <h3>●</h3>
+
+        </div>
+
+        <article class=" Contact-News">
+
+            <% Contact.forEach(contactElement=> {%>
+                <div class="contact-border">
+        
+        
+                    <div class="contact-foto-word">
+        
+                        <img src="<%=contactElement.foto %> " alt="">
+        
+                        <div class="H2-word-contact">
+                            <h2>
+        
+                                <%=contactElement.word %>
+                               
+        
+                            </h2>
+    
+                        </div>
+                       
+                    </div>
+                    <div class="contact-number"> 
+                    <p>
+        
+                        <%=contactElement.number1 %>
+                    </p>
+                    <p>
+                       
+        
+                            <%=contactElement.number2 %>
+                       
+        
+                    </p>
+                   </div>
+                </div>
+        
+                <%}) %>
+        </article>
+    </article>
+</section>
